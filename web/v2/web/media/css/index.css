@@ -1,0 +1,348 @@
+.full_page {
+	height: 100%;
+}
+
+.base_view.overflow {
+	overflow: hidden;
+}
+
+.base_view.width {
+	width: 400%;
+}
+
+.main_page {
+	background: url(../image/bg-white-lock.png) repeat;
+	min-height: 654px;
+	min-width: 489px;
+	max-width: 1000px;
+	text-align: center;
+	margin-left: auto; 
+	margin-right: auto;
+	padding-top: 54px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+.menu_bar {
+	height: 54px;
+	margin-top: -54px;
+}
+
+.menu_item {
+	width: 15% !important;
+	min-width: 80px;
+	margin-top: 0px;
+}
+
+.main_view {
+	width: 0%;
+	min-height: 600px;
+	float: left;
+	display: inline;
+}
+
+.main_view.default {
+	width: 25%;
+}
+
+.controls.question {
+	margin-top: 6%;
+}
+
+.placeholder-no-fix.question {
+	background-color: white !important;
+}
+
+.float_label {
+	background: url(../image/bg-white-lock.png) repeat;
+	padding: 5px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.float_btn {
+	padding: 5px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.recommend_user_list {
+	background: url(../image/bg-white-lock.png) repeat;
+	width: 39%;
+	height: 60%;
+	display: inline-block;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: relative;
+}
+
+.recommend_user {
+	background: url(../image/bg-white-lock.png) repeat;
+	margin: 10px;
+}
+
+.recommend_user_background {
+	padding: 10px;
+}
+
+.recommend_chat_list {
+	background: url(../image/bg-white-lock.png) repeat;
+	width: 59%;
+	height: 60%;
+	display: inline-block;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: relative;
+}
+
+.recommend_chat {
+	background: url(../image/bg-white-lock.png) repeat;
+	padding: 10px;
+	margin: 10px;
+	word-break:break-all;
+	position: relative;
+}
+
+.group_list {
+	background: url(../image/bg-white-lock.png) repeat;
+	margin-top: 10px;
+	width: 14%;
+	height: 96%;
+	display: inline-block;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: relative;
+}
+
+.group_btn {
+	background: url(../image/bg-white-lock.png) repeat;
+	margin: 10px;
+	height: 46px;
+	box-sizing: border-box;
+}
+
+.icon-btn.extra {
+	background: transparent !important;
+	width: 100% !important;
+	height: 34px !important;
+	margin: 0px !important;
+	padding-top: 10px !important;
+	left: -1px;
+}
+
+.group_name {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.chat_view {
+	background: url(../image/bg-white-lock.png) repeat;
+	margin-top: 10px;
+	width: 69%;
+	height: 96%;
+	display: inline-block;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 39px;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.chat_menu_bar {
+	height: 21px;
+	margin-top: -21px;
+	padding-left: 54px;
+	padding-right: 54px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.chat_room_title {
+	width: 100%;
+	float: right;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.toolbar {
+	width: 54px;
+	height: 100%;
+	margin-right: -54px;
+	float: right;
+}
+
+.toolitem {
+	float: right;
+	display: inline;
+}
+
+.chat_text {
+	background: url(../image/bg-white-lock.png) repeat;
+	width: 100%;
+	height: 100%;
+	padding-top: 21px;
+	box-sizing: border-box;
+}
+
+.blob_background {
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.blob {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.blob_view {
+	width: 100%;
+}
+
+.blob_border {
+	width: 10px;
+}
+
+.blob_fill {
+	width: 60px;
+}
+
+.blob_user {
+	width: 80px;
+	word-break: break-all;
+	vertical-align: middle;
+}
+
+.blob_text {
+	background: url(../image/bg-white-lock.png) repeat;
+}
+
+.chat_send {
+	height: 34px;
+	width: 100%;
+	margin-bottom: -34px;
+	padding-right: 84px;
+	box-sizing: border-box;
+}
+
+.chat_send_text {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.m-wrap.chat_send_text {
+	background-color: white !important;
+	width: 100%;
+}
+
+.chat_send_btn {
+	width: 70px;
+	height: 100%;
+	margin-right: -84px;
+	float: right;
+}
+
+.member_list {
+	background: url(../image/bg-white-lock.png) repeat;
+	margin-top: 10px;
+	width: 14%;
+	height: 96%;
+	display: inline-block;
+	padding-top: 20px;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.member_title {
+	background: url(../image/bg-white-lock.png) repeat;
+	height: 20px;
+	margin-top: -20px;
+}
+
+.member_list_view {
+	height: 100%;
+	overflow: auto;
+}
+
+.member {
+	margin: 10px;
+}
+
+.member_view.online {
+	background: url(../image/bg-white-lock.png) repeat;
+}
+
+.member_view.outline {
+	background: ;
+}
+
+.menber_name {
+	word-break: break-all;
+}
+
+.member_background {
+	background: inherit;
+}
+
+.hot_view {
+	background: url(../image/bg-white-lock.png) repeat;
+	margin-top: 10px;
+	height: 96%;
+}
+
+.user_view {
+	background: url(../image/bg-white-lock.png) repeat;
+	margin-top: 10px;
+	height: 96%;
+}
+
+/*hot begin*/
+.recommend_disccusion {
+	padding: 10px;
+	margin: 10px;
+	word-break:break-all;
+	position: relative;
+}
+
+.hot_view_lable {
+	background: url(../image/bg-white-lock.png) repeat;
+	padding: 5px;
+	width:100px;
+}
+
+.hot_discussion_list {
+	margin-top: 10px;
+}
+
+.hot_disscussion_item {
+	background: url(../image/bg-white-lock.png) repeat;
+	padding: 10px;
+	margin: 10px;
+}
+/*hot end*/
+
+/*mine begin*/
+.recommend_disccusion {
+	padding: 10px;
+	margin: 10px;
+	word-break:break-all;
+	position: relative;
+}
+.user_view_lable {
+	background: url(../image/bg-white-lock.png) repeat;
+	padding: 5px;
+	width:100px;
+}
+/*mine end*/
